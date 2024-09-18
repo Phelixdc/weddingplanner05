@@ -1,0 +1,819 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.top nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.top nav ul a:hover{
+    color: red;
+}
+#home{
+    color: red;
+}
+.top img{
+    height: 40px;
+}
+header{
+    background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(Weddingimages/Weddingsite/weeding-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 150px;
+}
+.story{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 130px;
+}
+#wedding{
+    font-weight: bolder;
+    font-size: 8.5rem;
+    letter-spacing: 2.5px;
+}
+.story p{
+    margin: 5px;
+}
+.excl{
+    margin: 20px;
+    display: flex;
+    padding: 100px;
+    margin-top: 40px;
+}
+.excl img{
+    width: 560px;
+    height: 560px;
+}
+#scrap{
+    margin-top: 90px;
+    width: 550px;
+    margin-left: 80px;
+    font-size: 1.3rem;
+}
+#scrap h2{
+    font-size: 3rem;
+}
+#scrap h5{
+    margin-bottom: 8px;
+}
+#scrap p{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+#readmore{
+    border: 2px solid red;
+    width: fit-content;
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#readmore:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+.excl a{
+    text-decoration: none;
+    color: black;
+}
+#line{
+    margin: auto;
+    width: 700px;
+}
+.tape{
+    display: flex;
+    padding: 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-bottom: 30px;
+}
+.taper{
+    display: flex;
+    padding: 10px;
+}
+#tape{
+    display: inline;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+#tape p{
+    margin-top: 15px;
+}
+.tape img{
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+}
+.exclusive{
+    background-color: rgba(128, 128, 128, 0.082);
+}
+.followus{
+    background-image:url(Weddingimages/Weddingsite/hero.jpeg) ;
+    height: 680px;
+    background-attachment: fixed;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.brat{
+    margin-left: 50px;
+    font-size: 1.3rem;
+    margin-top: 150px;
+    width: 450px;
+}
+.brat p, .brat h2{
+    margin-bottom: 30px;
+}
+.brat h6{
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+.brat h2{
+    font-size: 3.5rem;
+}
+#follow{
+    color: rgb(231, 108, 139);
+    font-size: 1.6rem;
+}
+
+
+
+
+.destination{
+    display: flex;
+    padding-left: 50px;
+    background: rgba(128, 128, 128, 0.082);
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#sett{
+    display: inline;
+    margin: 20px;
+}
+#sett img{
+    width: 250px;
+    
+}
+#cave img{
+    width: 350px;
+    height: 550px;
+}
+#dub{
+    margin-bottom: 10px;
+    height: 230px;
+}
+#flow{
+    height: 280px;
+}
+#outstanding{
+    font-size: 1.3rem;
+    margin-top: 180px;
+    margin-left: 50px;
+    
+}
+#outstanding p{
+    margin-top: 15px;
+}
+#outstanding h6{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+#outstanding h1{
+    font-size: 3.5rem;
+}
+#outstanding a{
+
+    text-decoration: none;
+    color: black;
+}
+#outstanding #readmore{
+    margin-top: 20px;
+}
+.serv{
+    background-image: url(Weddingimages/Weddingsite/pic16.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    font-size: 1.7rem;
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+}
+.serv p, .serv h1{
+    padding: 15px;
+}
+.serv h1{
+    font-size: 7.5rem;
+}
+#planner{
+    font-size: 2.4rem;
+}
+#book{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.serv a{
+    text-decoration: none;
+    color: white;
+}
+#book:hover{
+    background-color: white;
+    color: black;
+}
+.joey{
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.joey img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.joey p{
+    font-size: 1.9rem;
+    width: 700px;
+    text-align-last: auto;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#phoebe{
+    font-size: 1.3rem;
+    color: rgb(231, 108, 139);
+}
+#pics img{
+    padding: 5px;
+    width: 30%;
+}
+#pics{
+    padding-left: 50px;
+}
+.ourgallery p, .ourgallery h2{
+    padding-left: 50px;
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.ourgallery h2{
+    font-size: 2.5rem;
+}
+.ourgallery{
+    margin-top: 30px;
+    background-color: rgba(128, 128, 128, 0.082);
+    padding-bottom: 70px;
+}
+.ourgallery p{
+    padding-top: 95px;
+}
+.grand{
+    margin-top: 30px;
+    display: flex;
+}
+#lorem{
+    background-color: rgba(255, 0, 43, 0.76);
+    padding: 30px;
+}
+#sendmessage{
+    padding: 30px;
+    text-align: center;
+
+}
+#sendmessage form input{
+    width: 75%;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+#sendmessage form{
+    outline: none;
+}
+#messages{
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#yourname, #youremail, #subject{
+    padding: 10px;
+}
+#sendmessage h2, #sendmessage p{
+    padding-bottom: 17px;
+    font-size: 1.3rem;
+}
+#sendmessage h2{
+    font-size: 3.5rem;
+    padding-top: 60px;
+}
+#sendmessage p{
+    width: 420px;
+    margin: auto;
+    font-weight: lighter;
+    padding-bottom: 25px;
+}
+input{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+}
+input:focus{
+    border: 1px dotted black;
+}
+#sendmessage form input:focus{
+    background-color: white;
+}
+#sendmessage a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
+#sendmessage #readmore{
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+}
+#sendmessage #readmore:hover{
+    background-color: red;
+    color: white;
+}
+#lorem{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+#lorem p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align-last: initial;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+#lorem h2{
+    font-size: 3rem;
+}
+footer{
+    color: white;
+    background-color: rgb(37, 37, 51);
+    justify-content: space-between;
+    display: flex;
+    padding: 60px;
+}
+
+.logoss img{
+    width: 37px;
+    padding: 2px;
+}
+.logoss2 img{
+    max-width: 38px;
+    padding: 2px;
+}
+
+.dropdown{
+    position: relative;
+    display: none;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: #e7e7e7;
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    top: 65px;
+    left: 0;
+    width: 100%;
+}
+.dropcontent li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+    list-style-type: none;
+}
+.dropbutton:hover + .dropcontent, .dropcontent:hover{
+    display: block
+}
+.dropbutton:focus + .dropcontent, .dropcontent:hover{
+    display: block
+}
+.dropcontent li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    padding-left: 6px;
+}
+.dropcontent li a:hover{
+    color: red;
+}
+.dropdown button{
+    line-height: 0;
+    border: 0;
+    border: 1px solid #fd3b5b;
+    border-radius: 4px;
+}
+@media(max-width:920px) {
+    .top ul{
+        display: none;
+    }
+    .dropdown{
+        display: contents;
+    }
+    .top{
+        padding: 15px;
+    }
+}
+@media(max-width:720px){
+    .top img{
+        width: 140px;
+        height: 30px;
+    }
+    .dropdown img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:1148px){
+    .excl{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .excl img{
+        width: 80%;
+        margin: auto;
+    }
+    #scrap{
+        text-align: center;
+        margin-left: 0;
+    }
+    #scrap #readmore{
+        margin: auto;
+    }
+    #line{
+        width: 50%;
+    }
+    .tape, .taper{
+        flex-direction: column;
+        margin: auto;
+        text-align-last: center;
+    }
+    .tape img{
+        margin: auto;
+    }
+    
+    .grand{
+        flex-wrap: wrap;
+    }
+    #lorem{
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        height: 550px;
+    }
+    form #readmore{
+        margin-left: 30px;
+    }
+    .destination{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sett img{
+        width: 100%;
+    }
+
+    #cave img{
+        width: 700px;
+    }
+    #outstanding{
+        text-align: center;
+        margin-top: 35px;
+    }
+    #outstanding #readmore{
+        margin: auto;
+        margin-top: 20px;
+    }
+    #wedding, .serv h1{
+        font-size: 5rem;
+        letter-spacing: normal;
+    }
+    .story img, .serv img{
+        width: 150px;
+    }
+    
+}
+@media(max-width:1020px){
+    #sett img{
+       width: 80%;
+    }
+    .destination #cave img{
+        width: 500px;
+        margin: auto;
+    }
+    
+    #outstanding{
+        text-align: center;
+        margin-top: 35px;
+    }
+    #outstanding #readmore{
+        margin: auto;
+        margin-top: 20px;
+    }
+    #sett{
+        text-align: center;
+    }
+    .joey p{
+        font-size: 1.1rem;
+        width: 70%;
+    }
+    #phoebe{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:950px){
+    .excl img{
+        width: 120%;
+    }  
+    #sendmessage #readmore{
+        margin-left: 0;
+    }
+}
+@media(max-width:750px){
+    #pics img{
+     width: 49%;
+    }
+    .ourgallery p, .ourgallery h2{
+        text-align: center;
+        padding-left: 0;
+    }
+    #pics{
+      padding-left: 0;
+      padding: 10px;  
+    }
+    .joey img{
+        width: 70px;
+        height: 70px;
+    }
+    header{
+        height: 100vh;
+    }
+    .excl p{
+        width: 550px;
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    #scrap #readmore{
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .followus{
+        text-align: center;
+        height: 550px;
+    }
+    .brat{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        padding-top: 70px;
+    }
+    #outstanding{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media(max-width:476px){
+    #pics img{
+        width: 99%;
+    }
+}
+@media(max-width:640px){
+    .exclusive img{
+        height: 400px;
+    }
+    .taper h3{
+        font-size: 1.2rem;
+    }
+    .tape{
+        padding: 5px;
+        padding-top: 70px;
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+    }
+    .taper p{
+        width: 100%;
+        text-align: center;
+    }
+    #outstanding h1{
+        font-size: 2rem;
+    }
+    #outstanding p{
+        font-size: 1.2rem;
+    }
+    #outstanding #readmore{
+        font-size: 1.2rem;
+        padding: 7px;
+    }
+}
+@media(max-width:576px){
+    #wedding, .serv h1{
+        font-size: 2.5rem;
+    }
+    .story p, .serv p{
+        font-size: 1.2rem;
+    }
+    .serv{
+        height: 550px;
+    }
+    #planner{
+        font-size: 1.4rem;
+    }
+    .story img, .serv img{
+        width: 110px;
+    }
+    .story{
+        padding-top: 0;
+        margin-top: 100px;
+    }
+    .excl p{
+        width: 400px;
+    }
+    #scrap h2{
+        font-size: 2rem;
+    }
+    .followus h2{
+        font-size: 2.3rem;
+    }
+    .followus h6{
+        font-size: 1.2rem;
+    }
+    .followus p{
+        font-size: 1.2rem;
+    }
+    .serv #book{
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+}
+@media(max-width:556px){
+    .destination #cave img{
+        width: 450px;
+        height: 400px;
+    }
+    #sett img, .exclusive img{
+        width: 450px;
+    }
+}
+@media(max-width:480px){
+    .destination #cave img, #sett img, .exclusive img{
+        width: 350px;
+    }
+    .exclusive img{
+        height: 350px;
+    }
+
+}
+@media(max-width:428px){
+    .excl p{
+        max-width: 320px;
+    }
+    .followus{
+        height: 600px;
+    }
+}
+@media(max-width:354px){
+    footer p{
+        font-size: 1rem;
+    }
+    #sendmessage h2{
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+}
+@media(max-width:330px){
+    .excl p{
+        max-width: 270px;
+    } 
+    .followus{
+        height: 630px;
+    }
+}
+@media(max-width:280px){
+    .excl p{
+        max-width: 190px;
+    }
+}
+@media(max-width:390px){
+    .destination #cave img, #sett img, .exclusive img{
+        width: 280px;
+    }
+}
+@media(max-width:290px){
+    .destination #cave img, #sett img, .exclusive img{
+        width: 170px;
+    }
+    .exclusive img{
+        height: 300px;
+    }
+}
+@media(max-width:640px){
+    footer{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    footer p{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:600px){
+    #sendmessage{
+        width: 100%;
+    }
+    #sendmessage h2{
+        font-size: 2.2rem;
+    }
+    #sendmessage p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    #sendmessage #readmore{
+        font-size: 
+        1rem;
+        padding: 8px;
+    }
+    #lorem h2{
+        font-size: 2.2rem;
+    }
+    #lorem img{
+        width: 120px;
+    }
+    #lorem p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    #lorem{
+        height: 500px;
+    }
+}
+@media(max-width:540px){
+    header{
+        height: 500px;
+    }
+}
+.customize{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    position: fixed;
+    border: 1px solid white;
+    background-color: white;
+    padding: 12px;
+}
+.customize p{
+    margin-left: 5px;
+}
+.customize img{
+    margin-right: 5px;
+    height: 20px;
+    max-width: 20px;
+}
+@media(max-width:520px){
+    header{
+        background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(resized/IMG_0852.JPG);
+        background-size: 100% 100%;
+    width: 100%;
+    }
+    .followus{
+        background-image:url(resized/IMG_0853.JPG) ;
+    width: 100%;
+    background-size: 100% 100%;
+    }
+    .serv{
+        background-image: url(resized/IMG_0851.JPG);
+        background-size: 100% 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.top nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.top nav ul a:hover{
+    color: red;
+}
+.top img{
+    height: 40px;
+}
+header{
+    background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(Weddingimages/ContactUs/pic46-free-img.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 540px;
+    background-attachment: fixed;
+}
+.logoss img{
+    max-width: 60px;
+    padding: 12px;
+}
+.story{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 80px;
+}
+#wedding{
+    font-weight: bolder;
+    font-size: 6.5rem;
+    letter-spacing: 2.5px;
+}
+#contactus{
+    color: red;
+}
+#sendmessage{
+    padding: 30px;
+    text-align: center;
+
+}
+#temp form input{
+    width: 600px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+#temp form{
+    outline: none;
+}
+#messages{
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#yourname, #youremail, #subject{
+    padding: 10px;
+}
+#temp h2, #temp p{
+    padding-bottom: 17px;
+    font-size: 1.3rem;
+}
+#temp h2{
+    font-size: 3.5rem;
+    padding-top: 60px;
+}
+#temp p{
+    width: 420px;
+    margin: auto;
+    font-weight: lighter;
+    padding-bottom: 25px;
+    
+}
+input{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+}
+input:focus{
+    border: 1px dotted black;
+}
+#temp form input:focus{
+    background-color: white;
+}
+#temp a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
+#temp{
+    padding-right: 70px;
+}
+#temp #readmore{
+    width: fit-content;
+    padding: 16px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-bottom: 100px;
+    background-color: rgba(128, 128, 128, 0);
+    color: black;
+}
+#temp #readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+}
+#readmore{
+    border: 2px solid rgba(255, 0, 43, 0.76);
+    width: fit-content;
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+    color: whitesmoke;
+}
+.designed{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+#temp form{
+    display: grid;
+}
+#pharetra{
+    width: 500px;
+    font-size: 1.3rem;
+    padding-top: 40px;
+    padding: 50px;
+}
+#perfectly{
+    font-weight: lighter;
+    padding-bottom: 21px;
+    font-size: 2rem;
+}
+#fugiat{
+    width: 530px;
+    font-size: 1.2rem;
+}
+#perfectly2{
+    padding-top: 21px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.address{
+    display: flex;
+    margin-top: 30px;
+    padding-top: 60px;
+    justify-content: space-around;
+    padding: 100px;
+    padding-top: 15px;
+}
+.box{
+    background-color: rgba(128, 128, 128, 0.082);
+    width: 30%;
+    height: 300px;
+    margin: 17px;
+    padding: 30px;
+}
+.box h2{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.box p{
+    padding-top: 30px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    max-width: 260px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#line{
+    width: 90px; 
+    border-top: 2px solid rgb(241, 70, 98);
+}
+ 
+.logoss2 img{
+    max-width: 38px;
+    padding: 2px;
+}
+
+
+.dropdown{
+    position: relative;
+    display: none;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    top: 65px;
+    left: 0;
+    width: 100%;
+}
+.dropcontent li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+    list-style-type: none;
+}
+.dropbutton:focus + .dropcontent, .dropcontent:hover{
+    display: block
+}
+.dropcontent li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    padding-left: 6px;
+}
+.dropcontent li a:hover{
+    color: red;
+}
+.dropdown button{
+    line-height: 0;
+    border: 0;
+    border: 1px solid rgb(253, 59, 91);
+    border-radius: 4px;
+}
+
+iframe{
+    width: 100%;
+    height: 400px;
+}
+
+.grand{
+    margin-top: 30px;
+    display: flex;
+}
+#lorem{
+    background-color: rgba(255, 0, 43, 0.76);
+    padding: 30px;
+}
+#sendmessage{
+    padding: 30px;
+    text-align: center;
+
+}
+#sendmessage form input{
+    width: 75%;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+#sendmessage form{
+    outline: none;
+}
+#messages{
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#yourname, #youremail, #subject{
+    padding: 10px;
+}
+#sendmessage h2, #sendmessage p{
+    padding-bottom: 17px;
+    font-size: 1.3rem;
+}
+#sendmessage h2{
+    font-size: 3.5rem;
+    padding-top: 60px;
+}
+#sendmessage p{
+    width: 420px;
+    margin: auto;
+    font-weight: lighter;
+    padding-bottom: 25px;
+}
+input{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+}
+input:focus{
+    border: 1px dotted black;
+}
+#sendmessage form input:focus{
+    background-color: white;
+}
+#sendmessage a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
+#sendmessage #readmore{
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+}
+#sendmessage #readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+    color: white;
+}
+#readmore{
+    border: 2px solid rgba(255, 0, 43, 0.76);
+    width: fit-content;
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+    color: whitesmoke;
+}
+#lorem{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+#lorem p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align-last: initial;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+#lorem h2{
+    font-size: 3rem;
+}
+footer{
+    color: white;
+    background-color: rgb(37, 37, 51);
+    justify-content: space-between;
+    display: flex;
+    padding: 60px;
+}
+@media(max-width:920px) {
+    .top ul{
+        display: none;
+    }
+    .dropdown{
+        display: contents;
+    }
+    .top{
+        padding: 15px;
+    }
+}
+@media(max-width:720px){
+    .top img{
+        width: 140px;
+        height: 30px;
+    }
+    .dropdown img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:732px){
+    #wedding{
+        font-size: 4rem;
+        letter-spacing: normal;
+    }
+    header{
+        height: 400px;
+    }
+    
+}
+@media(max-width:490px){
+   header{
+    height: 350px;
+   }
+   #wedding{
+    font-size: 2.5rem;
+   }
+   .story p{
+    font-size: 1.3rem;
+   }
+}
+@media(max-width:1300px){
+    #temp form input{
+        width: 480px;
+    }
+    #pharetra{
+        width: 50%;
+        font-size: 1.2rem;
+        padding-top: 20px;
+    }
+    #perfectly{
+        font-weight: lighter;
+        padding-bottom: 21px;
+        font-size: 2rem;
+        width: 75%;
+    }
+    #fugiat{
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:1184px){
+    #smil{
+        width: 100%;
+    }
+}
+@media(max-width:1100px){
+    #temp form input{
+        width: 410px;
+    }
+    #perfectly{
+        font-weight: lighter;
+        padding-bottom: 21px;
+        font-size: 1.5rem;
+        width: 75%;
+    }
+    #perfectly2{
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+    #pharetra{
+        padding-top: 10px;
+    }
+}
+@media(max-width:962px){
+    #temp form input{
+        width: 370px;
+    }
+    
+}
+@media(max-width:879px){
+    #pharetra{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        padding-left: 0;
+    }
+    #perfectly, #fugiat{
+        margin: auto;
+    }
+    #perfectly{
+        width: 95%;
+        font-weight: 600;
+    }
+    #fugiat{
+        width: 100%;
+    }
+    #temp form input{
+        width: 100%;
+    }
+    #temp #readmore{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #temp{
+        padding: 0;
+        width: 95%;
+        padding-top: 60px;
+    }
+    #temp #yourname, #temp #youremail, #temp #subject{
+        padding: 20px;
+    }
+    #temp #messages{
+        padding: 20px;
+        padding-bottom: 95px;
+    }
+
+}
+@media(max-width:1320px){
+    .address{
+        padding: 10px;
+    }
+}
+@media(max-width:920px){
+    .box h2{
+        font-size: 1.7rem;
+    }
+    .box p{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:762px){
+    .box{
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #line, .box p{
+        margin: auto;
+    }
+    .box p{
+        max-width: 100%;
+    }
+    #line{
+        width: 35%;
+    }
+    .box img{
+        width: 15%;
+        height: 36%;
+        min-width: 60px;
+    }
+    .address{
+        flex-direction: column;
+    }
+}
+@media(max-width:588px){
+    .box img{
+        height: 30%;
+    }
+}
+@media(max-width:474px){
+    .box img{
+        height: 60px;
+    }
+}
+@media(max-width:1148px){
+    .grand{
+        flex-wrap: wrap;
+    }
+    #lorem{
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        height: 550px;
+    }
+    form #readmore{
+        margin-left: 30px;
+    }
+}
+@media(max-width:950px){
+    #sendmessage #readmore{
+        margin-left: 0;
+    }
+}
+@media(max-width:600px){
+    #sendmessage{
+        width: 100%;
+    }
+    #sendmessage h2{
+        font-size: 2.2rem;
+    }
+    #sendmessage p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    #sendmessage #readmore{
+        font-size: 
+        1rem;
+        padding: 8px;
+        font-weight: normal;
+    }
+    #lorem h2{
+        font-size: 2.2rem;
+    }
+    #lorem img{
+        width: 120px;
+    }
+    #lorem p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    #lorem{
+        height: 500px;
+    }
+}
+@media(max-width:640px){
+    footer{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    footer p{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:354px){
+    footer p{
+        font-size: 1rem;
+    }
+    #sendmessage h2{
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+}
+.customize{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    position: fixed;
+    border: 1px solid white;
+    background-color: white;
+    padding: 12px;
+}
+.customize p{
+    margin-left: 5px;
+}
+.customize img{
+    margin-right: 5px;
+    height: 20px;
+    max-width: 20px;
+}
+@media(max-width:520px){
+    header{
+        background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(resized/IMG_0846.JPG);
+        background-size: 100% 100%;
+        width: 100%;
+    } 
+}
+.dropbutton:hover + .dropcontent, .dropcontent:hover{
+    display: block
+}

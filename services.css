@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+.top nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.top nav ul a:hover{
+    color: red;
+}
+.top img{
+    height: 40px;
+}
+header{
+    background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(Weddingimages/Services/services-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+}
+.story{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 80px;
+}
+#wedding{
+    font-weight: bolder;
+    font-size: 6.5rem;
+    letter-spacing: 2.5px;
+}
+#services{
+    color: red;
+}
+#readmore{
+    border: 2px solid red;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+#readmore:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+.serving a{
+    color: black;
+    text-decoration: none;
+}
+#pics{
+    display: flex;
+    
+}
+.serving{
+    display: flex;
+    margin: auto;
+    padding-top: 90px;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 30px;
+    padding-bottom: 60px;
+
+}
+#earum{
+    max-width: 550px;
+    font-size: 1.2rem;
+    padding: 60px;
+    padding-top: 95px;
+    padding-right: 80px;
+    padding-left: 100px;
+}
+#earum h2{
+    font-size: 4rem;
+    padding-bottom: 15px;
+}
+#earum p{
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+#odd{
+    margin-left: 15px;
+}
+.cap{
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.082);
+    margin-top: 30px;
+    padding: 70px;
+}
+.box{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px;
+}
+.box p{
+    max-width: 200px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: auto;
+    padding-top: 30px;
+}
+.box h6{
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.want a{
+    color: white;
+    text-decoration: none;
+}
+.want{
+    text-align: center;
+    padding-top: 110px;
+    background-image:linear-gradient(rgba(17, 16, 17, 0.555), rgba(10, 10, 10, 0.637)), url(Weddingimages/Services/pic25-free-img.jpeg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 370px;
+    color: white;
+    margin-top: 30px;
+}
+.want #readmore{
+    margin: auto;
+    border: 2px solid rgb(231, 108, 139);
+}
+.want #readmore:hover{
+    background-color: rgb(231, 108, 139);
+
+}
+.want h2{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.want p{
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+.grand{
+    margin-top: 30px;
+    display: flex;
+}
+#lorem{
+    background-color: rgba(255, 0, 43, 0.76);
+    padding: 30px;
+}
+#sendmessage{
+    padding: 30px;
+    text-align: center;
+
+}
+#sendmessage form input{
+    width: 75%;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.082);
+}
+#sendmessage form{
+    outline: none;
+}
+#messages{
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#yourname, #youremail, #subject{
+    padding: 10px;
+}
+#sendmessage h2, #sendmessage p{
+    padding-bottom: 17px;
+    font-size: 1.3rem;
+}
+#sendmessage h2{
+    font-size: 3.5rem;
+    padding-top: 60px;
+}
+#sendmessage p{
+    width: 420px;
+    margin: auto;
+    font-weight: lighter;
+    padding-bottom: 25px;
+}
+input{
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.082);
+}
+input:focus{
+    border: 1px dotted black;
+}
+#sendmessage form input:focus{
+    background-color: white;
+}
+#sendmessage a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+}
+#sendmessage #readmore{
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 100px;
+    background-color: white;
+    color: black;
+}
+#sendmessage #readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+    color: white;
+}
+#readmore{
+    border: 2px solid rgba(255, 0, 43, 0.76);
+    width: fit-content;
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+#readmore:hover{
+    background-color: rgba(255, 0, 43, 0.76);
+    color: whitesmoke;
+}
+#lorem{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+#lorem p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align-last: initial;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+#lorem h2{
+    font-size: 3rem;
+}
+footer{
+    color: white;
+    background-color: rgb(37, 37, 51);
+    justify-content: space-between;
+    display: flex;
+    padding: 60px;
+}
+.logoss2 img{
+    max-width: 38px;
+    padding: 2px;
+}
+
+
+.dropdown{
+    position: relative;
+    display: none;
+}
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgba(128, 128, 128, 0.438);
+    top: 65px;
+    left: 0;
+    width: 100%;
+}
+.dropcontent li{
+    padding: 10px;
+    border-bottom: 1px solid #80808070;
+    list-style-type: none;
+}
+.dropbutton:focus + .dropcontent, .dropcontent:hover{
+    display: block
+}
+.dropcontent li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    padding-left: 6px;
+    
+}
+.dropcontent li a:hover{
+    color: red;
+}
+.dropdown button{
+    line-height: 0;
+    border: 0;
+    border: 1px solid rgb(253, 59, 91);
+    border-radius: 4px;
+}
+@media(max-width:920px) {
+    .top ul{
+        display: none;
+    }
+    .dropdown{
+        display: contents;
+    }
+    .top{
+        padding: 15px;
+    }
+    .story{
+        margin-top: 80px;
+    }
+}
+@media(max-width:720px){
+    .top img{
+        width: 140px;
+        height: 30px;
+    }
+    .dropdown img{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+@media(max-width:732px){
+    #wedding{
+        font-size: 4rem;
+        letter-spacing: normal;
+    }
+    header{
+        height: 400px;
+    }
+    
+}
+@media(max-width:490px){
+   header{
+    height: 350px;
+   }
+   #wedding{
+    font-size: 2.5rem;
+   }
+   .story p{
+    font-size: 1.3rem;
+   }
+}
+@media(max-width:1157px){
+    #odd{
+        width: 300px;
+    }
+    #even img{
+        width: 200px;
+    }
+    #earum{
+        width: 50%;
+    }
+    #earum h2{
+        font-size: 3rem;
+    }
+}
+@media(max-width:1073px){
+    #earum h2{
+        font-size: 2.3rem;
+    }
+    #earum{
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+}
+@media(max-width:858px){
+    .serving{
+        flex-direction: column;
+        padding-bottom: 500px;
+    }
+    #pics{
+        flex-direction: column;
+        margin: auto;
+    }
+    #even img{
+        width: 700px;
+        padding: 0;
+        margin: 0;
+        height: 300px;
+
+    }
+    #odd{
+        width: 660px; 
+        margin: 0;
+        height: 500px;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 20px;
+    }
+    #earum{
+        margin: auto;
+        padding-top: 0;
+        min-width: 95%;
+    }
+    #earum p{
+        text-align-last: center;
+    }
+    #earum h2, #earum #readmore{
+        margin: auto;
+        text-align: center;
+    }
+    .want h2{
+        font-size: 1.7rem;
+        font-weight: lighter;
+    }
+    .want #readmore{
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+    .want p{
+        padding: 10px;
+    }
+    
+}
+@media(max-width:700px){
+    #even img{
+        width: 600px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 560px;
+    }
+}
+@media(max-width:656px){
+    #even img{
+        width: 480px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 440px; 
+    }
+}
+@media(max-width:514px){
+    #even img{
+        width: 460px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 420px; 
+    }
+}
+@media(max-width:480px){
+    #even img{
+        width: 400px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 360px; 
+    }
+}
+@media(max-width:422px){
+    #even img{
+        width: 350px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 310px; 
+    }
+}
+@media(max-width:366px){
+    #even img{
+        width: 300px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 260px; 
+    }
+}
+@media(max-width:314px){
+    #even img{
+        width: 270px;
+        padding: 0;
+        margin: 0;
+
+    }
+    #odd{
+        width: 240px; 
+    }
+}
+@media(max-width:1071px){
+    .cap{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    .box{
+        width: 46%;
+        padding-top: 45px;
+        height: 250px;
+    }
+    .box p, .box h6{
+        padding-top: 10px;
+    }
+    .box p{
+        min-width: 85%;
+    }
+}
+@media(max-width:760px){
+    .box{
+        width: 90%;
+        height: 220px;
+        padding-top: 35px;
+    }
+}
+@media(max-width:1148px){
+    .grand{
+        flex-wrap: wrap;
+    }
+    #lorem{
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        height: 550px;
+    }
+    form #readmore{
+        margin-left: 30px;
+    }
+}
+@media(max-width:950px){
+    #sendmessage #readmore{
+        margin-left: 0;
+    }
+}
+@media(max-width:600px){
+    #sendmessage{
+        width: 100%;
+    }
+    #sendmessage h2{
+        font-size: 2.2rem;
+    }
+    #sendmessage p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    #sendmessage #readmore{
+        font-size: 
+        1rem;
+        padding: 8px;
+    }
+    #lorem h2{
+        font-size: 2.2rem;
+    }
+    #lorem img{
+        width: 120px;
+    }
+    #lorem p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    #lorem{
+        height: 500px;
+    }
+}
+@media(max-width:640px){
+    footer{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    footer p{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:354px){
+    footer p{
+        font-size: 1rem;
+    }
+    #sendmessage h2{
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+}
+.customize{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    position: fixed;
+    border: 1px solid white;
+    background-color: white;
+    padding: 12px;
+}
+.customize p{
+    margin-left: 5px;
+}
+.customize img{
+    margin-right: 5px;
+    height: 20px;
+    max-width: 20px;
+}
+@media(max-width:520px){
+    header{
+        background-image:linear-gradient(rgba(52, 53, 71, 0.678), rgba(53, 51, 70, 0.678)), url(resized/IMG_0849.JPG);
+        background-size: 100% 100%;
+        width: 100%;
+    }
+}
+.dropbutton:hover + .dropcontent, .dropcontent:hover{
+    display: block
+}
